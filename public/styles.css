@@ -1,0 +1,10 @@
+body { font-family: 'Inter', system-ui, sans-serif; background-color: #f8fafc; }
+.hidden { display: none !important; }
+.fade-in { animation: fadeIn 0.3s ease-in-out; }
+@keyframes fadeIn { from { opacity: 0; } to { opacity: 1; } }
+.badge { padding: 0.25rem 0.75rem; border-radius: 9999px; font-size: 0.75rem; font-weight: 600; }
+.badge-High { background-color: #fee2e2; color: #991b1b; }
+.badge-Medium { background-color: #fef3c7; color: #92400e; }
+.badge-Low { background-color: #e0f2fe; color: #075985; }
+.badge-Submitted { background-color: #dcfce7; color: #166534; }
+.badge-Researching { background-color: #f3f4f6; color: #374151; }
